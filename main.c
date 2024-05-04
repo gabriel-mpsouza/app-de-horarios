@@ -1,3 +1,8 @@
+/*
+ * Copyright (C) Gabriel Moura, 2024
+ * Todos os direitos reservados.
+ */
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
