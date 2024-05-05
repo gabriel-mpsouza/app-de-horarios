@@ -1,1 +1,36 @@
 
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:id="@+id/turno_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/turnos_array" />
+
+    <Spinner
+        android:id="@+id/dia_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/dias_array" />
+
+    <Button
+        android:id="@+id/mostrar_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar" />
+
+    <TextView
+        android:id="@+id/resultado_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:textSize="18sp" />
+
+</LinearLayout>
